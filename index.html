@@ -7,35 +7,70 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css" />
     <title>franchise</title>
   </head>
   <body>
     <!-- nav bar -->
       <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          <img src="images/gihaul--logo.png" width="50" height="50" alt="">
+          <img src="images/gihaul--logo.png" alt="">
         </a>
       </nav>
-    <!-- hero -->
-      <div class="background-image">
+      <!-- Hero -->
+      <div class="hero--background-image">
         <!-- Action bar -->
-        <div class="hero action bar">
+        <div class="hero--action-bar">
           <div class="container">
-            <div class="row">
+            <div class="row zipcode-column">
               <div class="col-sm-3">
-                [ICON] Tampa, FL
-                </div>
-                <div class="col-sm-9">
-                  [ZIPCODE]
-                </div>
+                <img src="images/location.png" alt="Location" height="30"> Tampa, FL
+              </div>
+              <div class="col-sm-9">
+                <form id="form-zipcode" class="form-zipcode">
+                  <i>
+                    Check Availability
+                  </i>
+                  <input name="zipcode" type="text" placeholder="Enter your zipcode" class="form-control"/>
+                  <button class="btn btn-primary btn-theme-green" type="submit">Go</button>
+                </form>
               </div>
             </div>
           </div>
-          <!-- hero -->
-    <!-- junk removal -->
-    <!-- quote -->
+        </div>
+        <!-- /Action bar  -->
+      </div>
+
+
+
+
+      <!-- junk removal -->
+      <div class="container">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h1 class="featurette-heading">Tampa Bay Area Junk Removal</h1>
+            <p class="lead">Whether its residential or commercial <br> we're happy to move your trash so you don't have to.</p>
+            <a class="btn btn-primary" href="#" role="Book Now">Book Now</a>
+          </div>
+          <div class="col-md-5">
+            <img src="images/junk.jpeg" alt="junk" width="500">
+          </div>
+        </div>
+      </div>
+
+    <!-- request- quote -->
+      <div class="container text-center">
+        <img src= "images/veteran-owned--black.png" alt="Veteran Owned"
+        <div>
+          <h2> GI Haul is ready to service your junk removal<br> needs in the Tampa Bay Area today </h2>
+          <p> We're Veteran Owned and Operated</p>
+          <p> We'll pick up Just About Any Junk</p>
+          <p> We beat any written junk removal estimate </p>
+          <a class="btn btn-primary" href="#" role="Request A Quote">Request A Quote</a>
+        </div>
+      </div>
     <!-- instagram -->
+
     <!-- ratings -->
     <!-- service list -->
     <!-- booking -->
