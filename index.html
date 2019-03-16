@@ -14,9 +14,20 @@
     <!-- nav bar -->
       <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          <img src="images/gihaul--logo.png" alt="">
+          <img src="images/gihaul--logo.png" alt="GI haul small logo" height="65">
         </a>
+      <div class="col-9 text-right">
+         <a class="text-link-dark phone-number" href="tel:1-800-8GI-HAUL">
+           <b>Call 1-800-8GI-HAUL</b>
+         </a>
+          <div class="nav-links">
+            <a class="text-link-dark" href="#howitworks">How it Works</a>
+            <a class="text-link-dark" href="#reviews">Reviews</a>
+            <a class="text-link-dark" href="#">Book Now</a>
+          </div>
+        </div>
       </nav>
+
       <!-- Hero -->
       <div class="hero--background-image">
         <!-- Action bar -->
@@ -32,13 +43,38 @@
                     Check Availability
                   </i>
                   <input id="zipcode" type="text" placeholder="Enter your zipcode" class="form-control"/>
-                  <button id="go-btn" class="btn btn-primary btn-theme-green" type="button" data-toggle="modal" data-target="#exampleModal">Go</button>
+                  <button id="go-btn" class="btn btn-primary btn-theme-green" type="button" data-toggle="modal" data-target="#exampleModalLong">Go</button>
                 </form>
               </div>
             </div>
           </div>
         </div>
         <!-- /Action bar  -->
+
+        <!-- Button trigger modal -->
+<button data-toggle="modal" data-target="#exampleModalLong">
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
 
       <!-- junk removal -->
@@ -72,21 +108,158 @@
     <div class="container-fluid instagram-container"">
       <div class="row">
         <div class="col-md-6">
-          <img src="images/ig-1.jpg" alt= "IG Image1" width="500">
+          <a href="www.instagram.com/g.i.haul/" target=blank title="G.I Haul on IG">
+            <div class="position-relative">
+              <img src="images/ig-1.jpg" alt= "IG Image1" class= "w-100">
+              <img class="ig-logo" src="images/ig-logo.png">
+          </div>
+          </a>
+          </div>
+        <div class="col-md-6">
+          <a href="www.instagram.com/g.i.haul/" target=blank title="G.I Haul on IG">
+          <div class="position-relative">
+            <img src= "images/ig-2.jpg" alt="IG Image2" class= "w-100">
+            <img class="ig-logo" src="images/ig-logo.png">
+            </div>
+          </a>
         </div>
       </div>
     </div>
 
+
+    <!-- ratings -->
+    <div class="container text-center my-5">
       <div class="row">
-        <div class="col-md-6">
-        <img src= "images/ig-2.jpg" alt="IG Image2" width="500">
+        <div class="col">
+          <h1 class="mb-0">
+            Top Rated Junk removal
+          </h1>
+          <p class= "ratings-sub-text mt-0">
+            See What Our Customers Say About Us
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-ratings-reviews">
+      <div class="row mt-5">
+            <div class="col-sm-4 text-center py-4">
+              <a href="https://www.google.com/search?source=hp&ei=Ds2MXKjkDKrt5gL-55eoCA&q=gihaul&btnK=Google+Search&oq=gihaul&gs_l=psy-ab.3..0i10l4.1356.1940..2370...0.0..0.277.616.6j0j1......0....1..gws-wiz.....0..35i39j0i131j0j0i10i30j0i30.JPy4MyejdlY#btnK=Google%20Search&lrd=0x8834f2236099a589:0x970c3c166e51ba39,1" target="blank" title="G.I Haul Google Reviews"</a>
+              <img src="images/google.png" alt= "Google Ratings" height="100">
+            </div>
+            <div class="col-sm-4 text-center py-4">
+              <a href="https://www.homeadvisor.com/rated.GIHaul.82214115.html" target="blank" title="G.I Haul Home Advisor Ratings"</a>
+              <img src="images/home-advisor.png" alt= "Home Advisor Ratings" height="100">
+            </div>
+            <div class="col-sm-4 text-center py-4">
+              <a href="https://www.homeadvisor.com/rated.GIHaul.82214115.html" target="blank" title="G.I Haul Facebook Ratings" </a>
+              <img src="images/facebook.png" alt= "Facebook Ratings" height="100">
+            </div>
         </div>
       </div>
 
-    <!-- ratings -->
     <!-- service list -->
+    <div class="bg-light mb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="my-3">
+              Junk We Remove
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col junk-we-remove text">
+            <p>Whether it's residential or commercial, we're happy to remove <br> your trash so you don't have to!</p>
+
+            <ul>
+              <li>Refrigerator and freezer removal</li>
+              <li>Hot tub and jacuzzi removal</li>
+              <li>Furniture removal</li>
+              <li>Swingset and Trampoline removal</li>
+              <li>Television removal</li>
+              <li>Appliance Removal</li>
+              <li>Business Junk Removal</li>
+              <li>Oven and stove removal</li>
+              <li>Old clutter removal</li>
+              <li>Yard debris removal</li>
+              <li>Waste removal</li>
+              <li>Garbage removal</li>
+              <li>Contractor garbage and waste removal</li>
+              <li>Don't see your item on our list? Contact us.</li>
+            </ul>
+
+            <a class="btn btn-primary" href="#" role="Request A Quote">Request A Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- booking -->
+    <div class="container">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h1 class="featurette-heading">Why Hire G.I. Haul?</h1>
+          <p class="lead">Our hassle free services allow you to go about your life, <br> while we do the heavy lifting for you. New customers get <br> $35 off.</p>
+          <a class="btn btn-primary" href="#" role="Book Now">Book Now</a>
+        </div>
+        <div class="col-md-5">
+          <img src="images/beach.jpg" alt="GI Haul Beach" width="500">
+        </div>
+      </div>
+    </div>
+
     <!-- footer -->
+    <body class="d-flex flex-column h-100">
+    <!-- Begin page content -->
+      <main role="main" class="flex-shrink-0">
+        <div class="container">
+          <h1 class="mt-5 text-center">Tampa Bay Area Junk Removal</h1>
+          <div class="container">
+              <div class="row">
+                <div class="col-sm-4 text-center">
+                  How It Works
+                  <a href="https://www.gihaul.com/junk-removal-process.html"</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                  Junk reviews
+                  <a href="https://www.gihaul.com/junk-reviews.html"</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                  Book Now
+                  <a href="https://www.gihaul.com/book-now.html"</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="container text-center">
+              <img src= "images/gihaul-logo--footer.jpg" alt="GI Haul logo"
+              <div>
+                <h2> Call 1-855-8GI-HAUL</h2>
+              </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-4 text-center">
+                    Franchise Opportunities
+                    <a href="https://www.gihaul.com/junk-removal-process.html"</a>
+                  </div>
+                  <div class="col-sm-4 text-center">
+                    Terms Of Service
+                    <a href="https://www.gihaul.com/junk-reviews.html"</a>
+                  </div>
+                  <div class="col-sm-1 text-center">
+                    Privacy Policy
+                    <a href="https://www.gihaul.com/privacy-policy.html"</a>
+                  </div>
+                </div>
+              </div>
+
+</body>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
