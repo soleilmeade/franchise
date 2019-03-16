@@ -1,9 +1,5 @@
-function favTeam(team) {
-  console.log(zipcode);
-}
-
 function getZipcode(zipcode){
-  alert(zipcode)
+  console.log(zipcode)
 }
     //Functions that users will interact with go in the doc ready
 $(document).ready(function() {
@@ -11,7 +7,7 @@ $(document).ready(function() {
     $("#go-btn").click(function() {
       var zipcode = $("#zipcode").val();
 
-      getZipcode(zipcode)
+      getZipcode(zipcode);
     });
 
 });
