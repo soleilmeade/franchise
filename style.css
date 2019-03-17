@@ -69,3 +69,25 @@
   background-color: #80b13a;
   border-color: #80b13a;
 }
+/*****************
+***JUNK REMOVAL***
+*****************/
+.featurette-heading {
+    padding-top: 80px;
+}
+
+.col-md-5{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+/*****************
+***Veteran Owned**
+*****************/
+.container.text-center{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #E1E1E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
