@@ -84,10 +84,7 @@
 /*****************
 ***Veteran Owned**
 *****************/
-.container.text-center{
-    padding-top: 10px;
-    padding-bottom: 40px;
-    background-color: #E1E1E5;
-    background-repeat: no-repeat;
-    background-size: cover;
+.veteran-container{
+
+
 }
